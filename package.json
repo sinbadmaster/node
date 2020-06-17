@@ -1,6 +1,6 @@
 {
-  "name": "json2excel",
-  "version": "1.0.0",
+  "name": "json2excel-node",
+  "version": "1.0.2",
   "description": "json转为excel小工具",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "json",
     "excel"
   ],
+  "repository": {"url": "https://github.com/sinbadmaster/node"},
   "author": "sinbadMaster",
   "license": "ISC",
   "dependencies": {
