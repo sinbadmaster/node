@@ -1,6 +1,6 @@
 {
   "name": "json2excel-node",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "json转为excel小工具",
   "main": "index.js",
   "scripts": {
