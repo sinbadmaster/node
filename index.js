@@ -2,7 +2,7 @@
  * @Author: sinbadMaster
  * @Description: 将json转为excel
  * @Date: 2020-06-09 08:59:11
- * @LastEditTime: 2020-06-17 14:29:41
+ * @LastEditTime: 2020-06-18 09:16:38
  * @FilePath: \json2Excel\index.js
  */ 
 
@@ -20,7 +20,7 @@ const fs = require('fs');
  * @return: 
  * @Date: 2020-06-09 15:13:30
  */
-module.exports = function json2Excel(savePath, fileName, jsonData, options) {
+function json2Excel(savePath, fileName, jsonData, options) {
   savePath = savePath.endsWith(path.sep) ? savePath : savePath + path.sep;
   fileName = (fileName.endsWith('.xls') || fileName.endsWith('.xlsx'))
     ? fileName
@@ -60,3 +60,5 @@ module.exports = function json2Excel(savePath, fileName, jsonData, options) {
   
   workbook.commit();
 }
+
+module.exports = { json2Excel }

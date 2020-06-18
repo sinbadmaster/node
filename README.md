@@ -6,8 +6,8 @@
 
 1. 安装后的使用方式：
 ```javascript
-const json2Excel = require('json2excel-node');
-json2Excel(savePath, fileName, jsonData, options);
+const j2eUtils = require('json2excel-node');
+j2eUtils.json2Excel(savePath, fileName, jsonData, options);
 ```
 
 2. 参数说明：
